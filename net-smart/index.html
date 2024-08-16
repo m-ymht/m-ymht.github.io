@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetSmart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="192x192" href="touch-icon.png">
+</head>
+<body>
+    <header>
+    <h1>NetSmart</h1>    
+    <p class="tag-line">よりスマートなインターネットライフを</p>
+    </header>
+
+    <nav class="g-nav">
+     <ul>
+     <li><a href="#">HOME</a></li>
+     <li><a href="#">CONCEPT</a></li>
+     <li><a href="#">SERVICE</a></li>
+     <li><a href="#">ACCESS</a></li>
+     </ul>
+    </nav>
+
+    <main>
+    <div class="main-visual">
+    <img src="img/main-1.jpg" alt="">
+    </div>
+
+    <div class="main-copy">
+    <h2>必要なものは、ビジネスの価値を <br>届ける>デザインの力。</h2> 
+    <p class="lead">Net Smartは、ビジネスとユーザーを理解し、 <br>
+        関係性を構築するためのストーリーの設計とUXデザインをご提供し、 <br>
+        よりスマートなインターネットライフを送るお手伝いを致します。</p>
+    </div>  
+    
+   <div class="wrapper">
+     <div class="box">
+     <h3>CONCEPT</h3>
+     <p class="photo"></p><img src="img/1.jpg" alt="">
+     <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+     </p>
+      </div>
+
+      <div class="box">
+      <h3>SERVICE</h3>
+      <p class="photo"><img src="img/2.jpg" alt="">
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+     </div>
+           
+      <div class="box">
+      <h3>ACCESS</h3>
+      <p class="photo"><img src="img/3.jpg" alt="">
+      <p class="text">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+        </p> 
+       </div>
+ </div>
+       <div class="map">
+       <h3>Map</h3>
+       <div class="map-inner">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25923.225957781306!2d139.72276782661132!3d35.69169326519602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7bed639fe1%3A0x9db449572f8beef6!2z5p2x5Lqs44Ks44O844OH44Oz44OG44Op44K557SA5bC-5LqV55S6!5e0!3m2!1sja!2sjp!4v1720180531197!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+       </div>
+
+      
+    </main>
+
+    <footer>
+        <p><small>&copy;2001- <span id="this-year"></span> Net Smart all rights reserved.</small></p>
+    </footer>
+
+<script>
+//西暦を取得して変数fullYearに代入
+const fullYear = newDate().getFullYear();
+//#this-yearに変数fullYearのテキストを表示
+document.querySelector('#this-year').textContent = fullYear;
+</script>
+</body>
+</html>

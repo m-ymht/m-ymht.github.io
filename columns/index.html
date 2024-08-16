@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>columnsを使ったメーソンリーレイアウト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="192x192" href="touch-icon.png">
+</head>
+<body>
+<header>
+ <h1>Masonry Layout</h1>
+</header>
+<main>
+<div class="wrapper">
+
+
+<div class="box"> 
+<p class="photo"><img src="img/01.jpg" alt="">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+</div><!-- /.box -->
+
+<div class="box"> 
+    <p class="photo"><img src="img/02.jpg" alt="">
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+    </div><!-- /.box -->
+
+<div class="box"> 
+<p class="photo"><img src="img/03.jpg" alt="">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+</div><!-- /.box -->
+
+<div class="box"> 
+    <p class="photo"><img src="img/04.jpg" alt="">
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+    </div><!-- /.box -->
+
+ <div class="box"> 
+        <p class="photo"><img src="img/05.jpg" alt="">
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+        </div><!-- /.box -->
+        
+<div class="box"> 
+<p class="photo"><img src="img/06.jpg" alt="">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+</div><!-- /.box -->
+
+<div class="box"> 
+<p class="photo"><img src="img/07.jpg" alt="">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+</div><!-- /.box -->
+    
+<div class="box"> 
+<p class="photo"><img src="img/08.jpg" alt="">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+</div><!-- /.box -->
+        
+ <div class="box"> 
+ <p class="photo"><img src="img/09.jpg" alt="">
+ <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+ </div><!-- /.box -->
+            
+            <div class="box"> 
+                <p class="photo"><img src="img/10.jpg" alt="">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                </div><!-- /.box -->
+                
+                <div class="box"> 
+                    <p class="photo"><img src="img/11.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                    </div><!-- /.box -->
+                    
+                    <div class="box"> 
+                        <p class="photo"><img src="img/12.jpg" alt="">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                        </div><!-- /.box -->
+                        
+                        <div class="box"> 
+                            <p class="photo"><img src="img/13.jpg" alt="">
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                            </div><!-- /.box -->
+                            
+                            <div class="box"> 
+                                <p class="photo"><img src="img/14.jpg" alt="">
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                </div><!-- /.box -->
+                                
+                                <div class="box"> 
+                                    <p class="photo"><img src="img/15.jpg" alt="">
+                                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                    </div><!-- /.box -->
+                                    
+                                    <div class="box"> 
+                                        <p class="photo"><img src="img/16.jpg" alt="">
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                        </div><!-- /.box -->
+                                        
+                                        <div class="box"> 
+                                            <p class="photo"><img src="img/17.jpg" alt="">
+                                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                            </div><!-- /.box -->
+                                            
+                                            <div class="box"> 
+                                                <p class="photo"><img src="img/18.jpg" alt="">
+                                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                                </div><!-- /.box -->
+                                                
+                                                <div class="box"> 
+                                                    <p class="photo"><img src="img/19.jpg" alt="">
+                                                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                                    </div><!-- /.box -->
+                                                    
+                                                    <div class="box"> 
+                                                        <p class="photo"><img src="img/20.jpg" alt="">
+                                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iure.</p>
+                                                        </div><!-- /.box -->
+                                                        
+                                                              
+</div><!-- /.wrapper -->
+
+
+</main>
+<footer>
+<p><small>&copy <span id="this-year"></span> columns</small></p>    
+</footer>
+
+<script>
+const fullYear = new Date().getFullYear();
+if(fullYear >= 2025){
+document.querySelector('#this-year').textContent = '2024 - '+fullYear; 
+}else{
+document.querySelector('#this-year').textContent = fullYear;     
+}
+</script>
+
+</body>
+</html>

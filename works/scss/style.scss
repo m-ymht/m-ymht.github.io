@@ -3,11 +3,12 @@
 
 //スムーススクロール
 html{
-scroll-behavior: smooth;    
+scroll-behavior: smooth;
 }
 
+
 .container{
-display: flex;    
+display: flex;
 }
 
 header{
@@ -87,7 +88,7 @@ color: #fff;
 margin-bottom: 40px;   
 }
 >.lead{
-    max-width: 600px;
+max-width: 600px;
 font-size: 18px;
 margin:0 auto 50px;    
 }
@@ -105,5 +106,5 @@ margin-bottom: 20px;
 .free{
 width: 100%;
 height: 100vh;
-background-color: rgb(235, 235, 195);    
+background-color: #ebebc3;    
 }

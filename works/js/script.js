@@ -41,16 +41,5 @@ $("#list-6").addClass("current").siblings("li").removeClass("current");
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 });
 });

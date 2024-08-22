@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>縦書きとルビの設定</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="192x192" href="touch-icon.png">
+ </head>
+<body>
+<header>
+<h1><ruby>小倉百人一首<rt>おぐらひゃくにんいっしゅ</rt>
+</ruby> </h1>  
+</header>   
+
+<div class="parallax-1"></div>
+<div class="contents">
+<h2><ruby>紀貫之 <rt>きのつらゆき</rt></ruby></h2>
+<p><ruby>人<rt>ひと</rt></ruby>はいさ <br>
+    心も知らず <br>
+    ふる里は <br>
+    花ぞ昔の <br>
+    香に<ruby>匂<rt>にほ</rt></ruby>ひける</p>
+</div>
+
+<div class="parallax-2"></div>
+<div class="contents">
+<h2><ruby>清原深養父 <rt>きよはらのふかやぶ</rt></ruby></h2>
+<p><ruby>夏<rt>なつ</rt></ruby>の夜は <br>
+    まだ宵ながら <br>
+    明けぬるを <br>
+    雲のいづこに <br>
+    月宿るらむ</p>
+</div>
+
+<a href="#" id="to-top"><img src="img/to-top.svg" alt=""></a>
+
+<footer></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script>
+$(function(){
+$('#to-top').on('click',function(){
+$('html.body').animate({scrollTop:0});
+})
+});
+</script>
+</body>
+</html>

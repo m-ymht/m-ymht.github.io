@@ -94,11 +94,18 @@ margin:0 auto 50px;
 }
 }
 
+
 //課題のリスト
 .kadai-list{
 padding:50px 0 50px 50px;    
 >li{
 margin-bottom: 20px;    
+>a{
+color: #111;    
+&:hover{
+text-decoration: underline 2px ;    
+}
+}
 }
 }
 

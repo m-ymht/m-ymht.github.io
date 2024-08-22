@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像を使ったホバーアニメーション</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    }
+    img{
+    vertical-align: bottom;
+    max-width: 100%;
+    }
+    h1{
+    text-align: center;
+    margin: 50px 0;    
+    }
+
+    .wrapper{
+    width: 960px; 
+    margin: 100px auto 0;
+    display: flex;
+    gap: 0 20px;   
+    }
+    .box{
+    width: 300px;    
+    overflow: hidden;/* 要素からはみ出た部分を隠す */
+    position: relative;
+    }
+
+    .box:nth-of-type(1)>img{
+    transition: 0.5s;
+    }
+
+    .box:nth-of-type(1)>img:hover{
+    scale: 1.2;    
+    }
+    .caption{
+    width: 300px;
+    height: 200px;    
+    background-color: #0000003c;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    .caption>h2{
+    margin-bottom: 20px;   
+    }
+    .caption>p{
+    line-height: 1.8;
+    }
+    .box:nth-of-type(2)>.caption{
+    opacity: 0;/* 要素を透明にする */
+    transition: 0.8s;
+    }
+    .box:nth-of-type(2):hover>.caption{
+    opacity: 1;
+    }
+    .box:nth-of-type(3)>.caption{
+    left: 300px;    
+    transition: 0.3s;
+    }
+    .box:nth-of-type(3):hover>.caption{
+    left: 0;
+    }
+
+    </style>
+</head>
+<body>
+<h1>画像を使ったホバーアニメーション</h1>
+
+<div class="wrapper">
+<div class="box">
+<img src="img/1.jpg" alt="">
+</div>
+
+<div class="box">
+<img src="img/2.jpg" alt="">  
+<div class="caption">
+<h2>Lorem, ipsum dolor.</h2>    
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, est.</p>
+</div><!-- /.caption -->  
+</div><!-- /.box -->
+
+<div class="box">
+<img src="img/3.jpg" alt="">  
+<div class="caption">
+<h2>Lorem, ipsum dolor.</h2>    
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, est.</p>
+</div><!-- /.caption -->  
+</div><!-- /.box -->
+
+
+
+</html>

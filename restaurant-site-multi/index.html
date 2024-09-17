@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="葉山の隠れ家、奥深い味わいのイタリアンレストラン。 
+      まるで訪れた旅先で古い一冊の料理書にであったかのような、
+      懐かしく、そして新鮮な味わい。"
+    />
+
+    <title>イタリアンレストランのサイト制作</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hina+Mincho&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vegas.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="touch-icon.png">
+
+
+  </head>
+  <body id="top">
+
+    
+    <header>
+      <h1>La libreria di Rustico <span>ラ・リブレリア・ディ・ルスティコ
+      </span></h1>
+      <p class="tag-line">
+        ゆったりと古い書物をめくるような時間、 <br/>
+        ここは何度でも訪れたくなる場所
+      </p>
+      <ul class="lang-btn">
+        <li><a href="#" id="btn-ja">日本語</a></li>
+        <li><a href="#" id="btn-it">Italiano</a></li>
+        <li><a href="#" id="btn-en">English</a></li>
+
+      </ul>
+    </header>
+
+    <nav id="g-nav">
+      <ul>
+        <li><a href="#top" data-en="TOP">トップ</a></li>
+        <li><a href="#news" data-en="NEWS">お知らせ</a></li>
+        <li><a href="#menu" data-en="MENU">メニュー</a></li>
+        <li><a href="#movie" data-en="MOVIE">動画</a></li>
+        <li><a href="#shop" data-en="SHOP">店舗情報</a></li>
+        <li><a href="#faq" data-en="FAQ">よくある質問</a></li>
+        <li><a href="#">X (旧Twitter)</a></li>
+        <li><a href="#">LINE</a></li>
+      </ul>
+    </nav>
+
+
+    <button class="hamburger hamburger--collapse" type="button" id="ham-btn">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <a href="form/" class="to-form">ご予約はこちらから</a>
+
+
+
+
+    <div id="main-visual"></div>
+
+    <div class="main-copy">
+      <h2>懐かしい記憶をたどる味覚の時間旅行</h2>
+      <p class="lead">
+        葉山の隠れ家、 <br class="sp-on">奥深い味わいのイタリアンレストラン。 <br />
+        まるで訪れた旅先で <br class="sp-on">古い一冊の料理書にであったかのような、
+        <br />
+        懐かしく、そして新鮮な味わい。
+      </p>
+    </div>
+    <!-- /.main-copy -->
+
+    <div class="gallary">
+      <p><img src="img/gallary-1.webp" alt="" /></p>
+      <p><img src="img/gallary-2-4.webp" alt="" /></p>
+    </div>
+    <!-- /.gallary -->
+
+
+    <main>
+      <section id="news" class="content">
+        <h3 data-en="NEWS">お知らせ</h3>
+        <dl id="news-list"></dl>
+      </section>
+
+      <section id="menu" class="content">
+        <h3 data-en="MENU">メニュー</h3>
+        <div class="menu-wrapper">
+          <div class="menu-box">
+            <a href="img/menu-1.webp" data-lightbox="menu">
+              <p class="menu-title">秘密の庭のパスタ <br>
+                (Pasta Segreta del Chef)</p>
+                <p class="menu-discription">
+                  地元で採れたての旬の食材と、 <br>
+                  シェフのその日の気分で変わる特別なパスタ。</p>
+              <p class="menu-photo"><img src="img/menu-1.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+          <div class="menu-box">
+            <a href="img/menu-2.webp" data-lightbox="menu">
+              <p class="menu-title">栗と花のパスタ <br>
+                (Pasta al Lecciolo e Fiori) </p>
+                <p class="menu-discription"></p>
+                <p class="menu-discription">秋の栗とエディブルフラワーを合わせた、 <br>
+                  季節感あふれるパスタ。</p>
+              <p class="menu-photo"><img src="img/menu-2.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+          <div class="menu-box">
+            <a href="img/menu-3.webp" data-lightbox="menu">
+              <p class="menu-title">海と太陽と果実のピッツァ <br>
+                (Pizza Sole del Mare)</p>
+                <p class="menu-discription">新鮮な魚介をふんだんに使用し、 <br>
+                  太陽をイメージした彩り豊かなピザ。</p>
+              <p class="menu-photo"><img src="img/menu-3.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+          <div class="menu-box">
+            <a href="img/menu-4.webp" data-lightbox="menu">
+              <p class="menu-title">南北のイタリアのピッツァ <br>
+                (Pizza Nord e Sud)</p>
+                <p class="menu-discription">北イタリアと南イタリアの食材を組み合わせた、 <br>
+                  コントラストが美しいピザ。</p>
+              <p class="menu-photo"><img src="img/menu-4.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+          <div class="menu-box">
+            <a href="img/menu-5.webp" data-lightbox="menu">
+              <p class="menu-title">ドルチェ・デッラ・ノッテ <br>
+                (Dolce della Notte)</p>
+                <p class="menu-discription">夜空をイメージした、 <br>美しい見た目のデザート。</p>
+              <p class="menu-photo"><img src="img/menu-5.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+          <div class="menu-box">
+            <a href="img/menu-6.webp" data-lightbox="menu">
+              <p class="menu-title"> ティラミス・アル・カシス <br>
+                (Tiramisù al Cassis)</p>
+                <p class="menu-discription">カシスを使った、 <br>
+                  目にも美しい大人のティラミス。</p>
+              <p class="menu-photo"><img src="img/menu-6.webp" alt="" /></p>
+            </a>
+          </div>
+          <!-- /.menu-box -->
+
+
+        <!-- /.menu-wrapper -->
+      </section>
+
+      <div class="parallax">
+      </div>
+      <!-- /.parallax -->
+
+      <section id="movie" class="content">
+        <h3 data-en="MOVIE">動画</h3>
+        <div class="movie-inner">
+          <iframe src="https://www.youtube.com/embed/lAmEMJ8ylMY?si=BhD2-EFLyvwYWtY2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
+        </div>
+        <!-- /.movie-inner -->
+      </section>
+
+      <section id="shop" class="content">
+        <h3 data-en="SHOP">店舗情報</h3>
+        <div class="shop-container">
+        <div class="g-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5895.338657387285!2d139.58726494364757!3d35.27414816001283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601847366b3d82d5%3A0xf1481ed2954c610b!2z56We5aWI5bed55yM5LiJ5rWm6YOh6JGJ5bGx55S6!5e1!3m2!1sja!2sjp!4v1722240773784!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- /.g-map -->
+        <div class="shop-wrapper">
+          <dl><!-- 左側 -->
+            <dt>住所 : </dt><dd>神奈川県三浦郡葉山町1-2-0</dd>
+            <dt>tel : </dt><dd><a class="tel" href="tel:03-3333-0000">03-3333-0000</a></dd>
+            <dt>mail : </dt><dd><a href="mailto:">example@email.com</a></dd>
+          </dl>
+          <dl><!-- 右側 -->
+            <dt>営業時間 : </dt><dd>11:00 ~ 22:00</dd>
+            <dt>定休日 : </dt><dd>年末年始</dd>
+            <dt>席数 : </dt><dd>40席</dd>
+          </dl>
+        </div>
+        <!-- /.shop-wrapper -->
+
+        </div>
+        <!-- /.shop-container -->
+      </section>
+
+      <section id="faq" class="content">
+        <h3 data-en="FAQ">よくある質問</h3>
+        <details open name="faq">
+          <summary data-question="Q.">お店の名前の由来は何ですか？</summary>
+          <p class="answer" data-answer="A.">「La libreria di Rustico」はイタリア語で「ルスティコの本棚」という意味です。 <br>料理は、このお店のシェフであるルスティコが長年の経験と情熱を込めて作り上げた一冊の書物のようなもの。
+            お客様に、その一冊一冊の物語を楽しんでいただきたいという想いを込めて名付けました。</p>
+        </details>
+
+        <details name="faq">
+          <summary data-question="Q.">どのような食材を使っていますか？</summary>
+          <p class="answer" data-answer="A.">地元、三浦半島の農家さんから仕入れた新鮮な野菜や、 <br>
+            イタリアから直輸入したこだわりの食材を使用しています。 <br>
+            特に、旬の食材をふんだんに取り入れた季節のメニューはおすすめです。。</p>
+        </details>        
+
+        <details name="faq">
+          <summary data-question="Q.">メニューはどのように変わりますか？</summary>
+          <p class="answer" data-answer="A.">メニューは、旬の食材やシェフのインスピレーションによって随時変わります。 <br>
+            シェフの本棚から出てきた一つの古いレシピが登場するかもしれません。  <br>
+            きっと、何度ご来店いただいても、新しい発見があるはずです。</p>
+        </details>
+        
+        <details name="faq">
+          <summary data-question="Q.">ワインのペアリングはできますか？</summary>
+          <p class="answer" data-answer="A.">はい、もちろんです。 <br>
+            ソムリエが、お料理に合わせたおすすめのワインをご提案いたします。 <br>
+            ワインリストには、イタリア各地の個性豊かなワインを取り揃えておりますので、お気軽にお尋ねください。</p>
+        </details>       
+      </section>
+
+      <div class="carousel">
+        <ul class="bxslider">
+          <li><img src="img/menu-1.webp" alt=""></li>
+          <li><img src="img/menu-2.webp" alt=""></li>
+          <li><img src="img/menu-6.webp" alt=""></li>
+          <li><img src="img/gallary-2+.webp" alt=""></li>
+          <li><img src="img/menu-3.webp" alt=""></li>
+          <li><img src="img/menu-4.webp" alt=""></li>
+          <li><img src="img/gallary-1.webp" alt=""></li>          
+          <li><img src="img/menu-5.webp" alt=""></li>
+
+        </ul>
+
+      </div>
+      <!-- /.carousel -->
+    </main>
+    <footer>
+      <p>
+        <small>&copy; <span id="this-year"></span> La libreria di Rustico</small>
+      </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/vegas.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+  </body>
+</html>

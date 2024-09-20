@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{background-repeat:no-repeat;box-sizing:inherit}:after,:before{text-decoration:inherit;vertical-align:inherit}*{padding:0;margin:0;box-sizing:border-box;}audio:not([controls]){display:none;height:0}hr{overflow:visible}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}summary{display:list-item}small{font-size:80%}[hidden],template{display:none}abbr[title]{border-bottom:1px dotted;text-decoration:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}code,kbd,pre,samp{font-family:monospace,monospace}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}input{border-radius:0}[role=button],[type=button],[type=reset],[type=submit],button{cursor:pointer}[disabled]{cursor:default}[type=number]{width:auto}[type=search][type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;resize:vertical}button,input,optgroup,select,textarea{font:inherit}optgroup{font-weight:700}button{overflow:visible}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:0;padding:0}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button:-moz-focusring{outline:1px dotted}[type=reset],[type=submit],button,html [type=button]button,select{text-transform:none}button,input,select,textarea{background-color:transparent;border-style:none;color:inherit}select::-ms-expand{display:none}select::-ms-value{color:currentColor}legend{border:0;color:inherit;display:table;max-width:100%;white-space:normal}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}[type=search]img{border-style:none;vertical-align: bottom}progress{vertical-align:baseline}svg:not(:root){overflow:hidden}audio,canvas,progress,video{display:inline-block}@media screen{[hidden~=screen]{display:inherit}[hidden~=screen]:not(:active):not(:focus):not(:target){position:absolute!important;clip:rect(0 0 0 0)!important}}[aria-busy=true]{cursor:progress}[aria-controls]{cursor:pointer}[aria-disabled]{cursor:default}::-moz-selection{background-color:#b3d4fc;color:#000;text-shadow:none}::selection{background-color:#b3d4fc;color:#000;text-shadow:none}ul,ol{list-style:none;}a{text-decoration:none;}img{max-width: 100%;vertical-align: bottom;}
+
+html{scroll-behavior:smooth;}
+
+body{
+background-color: #012245;    
+color: #fff;
+font-family: serif;
+}
+
+/* PCレイアウト */
+header{ 
+width: 100%;
+height: 100vh;
+background: url(../img/main_pc.webp) no-repeat center 25% / cover;
+}
+
+
+h1{
+width: 200px;
+height: 400px;
+margin: 0 auto 20px;
+text-indent: 100%;/* 文字を右に移動 */ 
+white-space: nowrap;/* 改行を無効にする */ 
+overflow: hidden; /* はみ出した部分を隠す */ 
+}
+
+.hyoutan{
+position: relative;
+top: -250px;
+left: 92%;
+width: 35px;
+}
+
+p.tag-line{
+text-align: center;
+position: relative;
+font-size: 12px;
+}
+
+.header-logo{
+position: relative;
+top: -210px;
+left: 250px;
+max-width: 230px;
+}
+
+.g-nav{
+position: relative;
+top: -450px;
+right: 10%;
+line-height: 2 ;
+margin-left: 87%;
+
+>ul>li>a{
+color: #fff;
+}
+}
+
+.g-nav a:hover{
+color: #b3b3c9;    
+}
+
+.cta-btn{
+position: relative;
+top: -450px;
+left: 12px;
+width: 150px;
+padding: 0 10px;
+border: 1px solid #fff;
+text-align: center;
+font-size: 12px;
+color: #fff;
+z-index: 1;
+}
+
+.cta-btn a:hover{
+color: #b3b3c9;    
+}
+
+.wrapper{
+margin-top: 50px;
+}
+
+.forest{
+margin-top: 80px;
+width: 760px;
+height: 280px;
+} 
+
+.mov-wrapper{
+display: flex;
+width:80% ;
+height: 100vh;
+}
+
+.taki{
+position: relative;
+top:150px;
+left:90px;
+width: 343px;
+height: 1047px;
+}
+
+
+.about{
+>h2{
+writing-mode: vertical-rl; 
+font-size: 38px;   
+margin: 10px 15px ;
+}
+
+>h3{
+margin: 6% 40px;
+}
+
+>p.lead{
+font-size: 16px;   
+line-height: 2.5;
+margin: 6% 40px;
+}
+
+>.map-img{
+position: relative;
+top:100px;
+left: 35%;
+max-width: 60%;
+}
+}
+
+.product-wrapper{
+display: flex;
+margin:100px 0;
+}
+
+.product-text{
+margin-top: 100px;
+margin-left: 20px;
+
+>h2{
+font-size: 38px;   
+}
+>h3{
+margin: 80px 20px ;
+}
+>p{
+font-size: 16px;   
+line-height: 2;
+margin: 20px 0 0;
+}
+}
+
+.news-wrapper{
+width: 100%;
+>h2{
+text-align: center;
+}
+}
+
+.news-img{
+position: relative;
+top: -300px;
+width: 40%;
+height: 100vh;
+left: 60%;
+}
+.news-text-1{
+text-align: center;  
+margin-top: 50px;
+>h4{
+margin: 30px;
+}
+}
+.news-text-2{
+text-align: center;  
+margin-top: 80px;
+>h4{
+margin: 30px;
+}
+}
+
+
+.location{
+display: flex;
+margin-top: 300px;
+>.loc-img-1{
+width: 500px;    
+}
+>.loc-text{
+width:500px ;
+margin: 90px 250px 100px;
+font-size: 16px;
+}
+}
+.location-2{
+display: flex;
+
+>.loc-img-2{
+width: 600px; 
+height: 250px;
+margin: -100px 40px 40px 140px; 
+left: 90%;
+
+}
+>.loc-img-3{
+width: 520px; 
+margin: 200px 50px 100px 50px; 
+} 
+}
+
+.instagram >h3{
+text-align: center;
+margin: 50px auto;
+}
+
+.bxslider{
+display: flex;
+margin-top: 100px;
+}
+
+
+.online-sp{
+background: url(../img/kumorizora-2.png);
+width: 100%;
+height: 100vh;
+>h3{
+text-align: center;
+margin: 200px auto;
+}
+>.online-logo{
+width: 300px;
+margin: -100px auto;
+}
+}
+
+.contact{
+>h3{
+text-align: center;
+margin: 200px auto;
+}
+>to-form{
+text-align: center;
+color: #fff;
+}
+}
+
+.footer-nav{
+display: flex;
+border-top: 1px solid #fff;
+padding: 50px;
+
+>.foot-nv{
+width: 70%;
+height: 20%;
+margin-top: 100px;
+line-height: 3;
+color: #fff;
+}
+
+>.foot-logo{
+position: relative;
+width: 150px;
+left: 10px;
+}
+}
+
+.foot-nav a:hover{
+color: #b3b3c9;    
+}
+
+footer{
+width: 100%;
+padding:30px 0 ;    
+text-align: center;
+border-top: 1px solid #fff;
+}
+footer>p{
+text-align: center;
+margin-bottom: 303px;    
+}
+
+
+/* 960px以下のレイアウト */
+/* @media(max-width:960px){
+.wrapper{
+padding: 10px;    
+}    
+main{
+width: 500px;    
+}
+aside{
+width: calc(100% - 500px - 40px);
+}
+}
+
+/* 640px以下のレイアウト */
+/* @media(max-width:640px){
+.wrapper{
+flex-direction: column;  
+gap: 60px 0;
+}
+main{
+width: 100%;    
+}
+aside{
+width: 100%;
+}
+}
+ */ */

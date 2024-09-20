@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Yuji+Mai&family=Zen+Maru+Gothic&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;   
+}
+ul{
+list-style: none;    
+}
+a{
+text-decoration: none;    
+}
+img{
+vertical-align: bottom;    
+max-width: 100%;
+}
+
+/* 共通部分 */
+header{
+padding: 40px 0;    
+}
+h1{
+text-align: center;
+font-family: "Noto Serif JP", serif;
+font-size:40px ;    
+font-weight:bold;
+font-style: normal;
+}
+
+
+.g-nav{
+width: 100%;
+height: 50px;
+background-color: #566C73;    
+}
+.g-nav>ul{
+display: flex;
+max-width: 100%;
+margin: 0 auto;
+}
+.g-nav li{
+width: 20%;    
+}
+.g-nav a{
+color: #ffffff;    
+display: block;
+text-align: center;
+line-height: 50px;
+border-left: 1px solid #ffffff;
+font-family: "Noto Serif JP", serif;
+}
+.g-nav li:last-of-type>a{
+border-right:1px solid #ffffff;    
+}
+.g-nav a:hover{
+background-color: #0F2540;    
+}
+
+
+footer{
+width: 100%;
+height: 100px;
+background-color: #566C73;  
+}
+footer>p{
+text-align: center;   
+color: #ffffff; 
+line-height: 100px;
+font-family: "Noto Serif JP", serif;
+}
+
+main{
+max-width: 960px;
+margin: 50px auto 100px;
+}
+
+/* トップページ部分 */
+.main-visual{
+aspect-ratio: 2/1;/* 横/縦の比率（小数点も可） */
+margin-bottom: 100px;  
+}
+.main-visual>img{
+object-fit: cover;
+object-position: center center;
+width: 100%;
+height: 100%;    
+}
+.main-copy>h2{
+text-align: center;
+font-size: 30px;   
+margin-bottom: 30px;
+font-family: "Noto Serif JP", serif;
+}
+.main-copy>p{
+max-width: 600px;    
+margin: 0 auto;
+line-height: 2;
+font-family: "Noto Serif JP", serif;
+}
+
+/* 季節ページ部分 */
+.wrapper{
+display: flex;    
+gap: 0 40px;
+flex-direction: row-reverse;
+font-family: "Noto Serif JP", serif;
+}
+.text-box{
+width: calc(100% - 62.5% - 40px);    
+}
+.text-box>h2{
+margin-bottom: 20px;  
+font-size: 26px;  
+}
+.text-box>p{
+line-height: 1.75    
+}
+.img-box{
+width: 62.5%;    
+}
+
+/* 各季節ページ毎のスタイル */
+.spring>.g-nav{
+background-color: #b3c46a;    
+}
+.spring>footer{
+background-color: #b3c46a;    
+}
+
+.summer>.g-nav{
+background-color: #566C73;    
+}
+.summer>footer{
+background-color: #566C73;      
+}
+
+.fall>.g-nav{
+background-color: #936a4b;    
+}
+.fall>footer{
+background-color: #936a4b;    
+}
+
+.winter>.g-nav{
+background-color: #9E7A7A;    
+}
+.winter>footer{
+background-color: #9E7A7A;    
+}
+
+/* カレント要素の指定 */
+.current>a{
+background-color: #0F2540;    
+}
+
+/* 960px以下 */
+@media(max-width:960px){
+main{
+padding: 0 10px;    
+}
+}
+
+/*767px以下 */
+@media (max-width:767px){
+header{
+padding: 20px 0;    
+}
+h1{
+font-size: 30px;    
+}
+.g-nav a{
+font-size: 14px;    
+}
+.main-visual{
+aspect-ratio: 1/0.8;/* 横/縦の比率（小数点も可） */    
+}
+.wrapper{
+flex-direction: column-reverse;   
+gap: 80px 0; 
+}
+.text-box{
+width: 100%;    
+}
+.img-box{
+width: 100%;
+text-align: center;
+
+}
+}

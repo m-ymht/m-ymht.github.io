@@ -24,7 +24,7 @@ text-align: center;
 margin-bottom: 20px;
 }
 >p{
-margin-bottom: 20px;    
+margin-bottom: 20px;   
 }
 }
 
@@ -66,6 +66,11 @@ font-size: 26px;
 font-weight: normal;
 }
 }
+>p{
+max-width: 680px;
+margin: 0 auto;
+line-height: 1.75;
+}
 }
 
 //メインビジュアル
@@ -82,23 +87,31 @@ height: 100%;
 //メインコピー
 .main-copy{
 padding: 50px 20px;
-text-align: center;
 color: #fff;    
 >h2{
 margin-bottom: 40px;   
+text-align: center;
 }
 >.lead{
 max-width: 600px;
-font-size: 18px;
+font-size: 14px;
 margin:0 auto 50px;    
 }
 }
 
+
 //課題のリスト
 .kadai-list{
 padding:50px 0 50px 50px;    
+list-style: disc;
 >li{
 margin-bottom: 20px;    
+>a{
+color: #111;    
+&:hover{
+text-decoration: underline 2px ;    
+}
+}
 }
 }
 

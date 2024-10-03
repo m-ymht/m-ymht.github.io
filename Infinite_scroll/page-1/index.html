@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋の音</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="pages">
+<h2>秋の音</h2>
+<div class="pages-wrapper">
+<div class="text-box">
+<P>【環境音/ASMR】虫の声・癒しの音|静かな田舎の虫の声・秋の音です。勉強・睡眠・作業用BGMなどにお役立てください。虫の声を聴きながら夕暮れから夜へと時間と共に徐々に変わっていくリアルタイム環境音をお楽しみください。</P>
+<h3>この動画の目次</h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+</div><!-- /.text-box -->
+
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/UbuUsk43e_E?si=sXRa6rh-8XxgSddq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+</div><!-- /.pages-wrapper -->
+</div><!-- /.pages -->
+</div><!-- /.wrapper -->
+<a href="../page-2" id="next">次のページへ</a>
+
+
+</div><!-- /#container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+
+<script>
+<!-- //トップページへのリダイレクト -->
+setTimeout("redirect()", 0);
+function redirect(){
+    location.href='../index.html';
+}
+$('#container').cleverInfiniteScroll({
+contentsWrapperSelector: '#container',
+contentSelector: '.wrapper',
+nextSelector: '#next',
+});
+</script>
+</body>
+</html>

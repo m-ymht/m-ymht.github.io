@@ -50,6 +50,11 @@ $(function () {
     $("#this-year").text("2024 - " + fullYear);
   } else {
     $("#this-year").text(fullYear);
-  }
-});
+
+
+
+  }};
+
+
+
 

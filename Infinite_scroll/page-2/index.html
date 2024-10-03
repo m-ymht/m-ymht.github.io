@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>田舎の夜</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="pages">
+<h2>田舎の夜</h2>
+<div class="pages-wrapper">
+<div class="text-box">
+<P>遠いどこかの小さな田舎町の夜。
+    家の外から聞こえてくる虫の声と川のせせらぎが
+    実家に帰ってきたような安心感をあたえてくれます。
+    作業用、睡眠用BGMなどにオススメ^^
+    今日もぐっすりおやすみなさい😴。</P>
+<h3>この動画の目次</h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+</div><!-- /.text-box -->
+
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/5HB43YxzE6M?si=ogvZIyuSa5hzcDZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+</div><!-- /.pages-wrapper -->
+</div><!-- /.pages -->
+</div><!-- /.wrapper -->
+<a href="../page-3" id="next">次のページへ</a>
+
+
+</div><!-- /#container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+
+<script>
+    <!-- //トップページへのリダイレクト -->
+    setTimeout("redirect()", 0);
+    function redirect(){
+        location.href='../index.html';
+    }
+    $('#container').cleverInfiniteScroll({
+    contentsWrapperSelector: '#container',
+    contentSelector: '.wrapper',
+    nextSelector: '#next',
+    });
+    </script>
+
+</body>
+</html>

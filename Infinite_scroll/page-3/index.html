@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>やさしい雨の音とカエルの声</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="pages">
+<h2>やさしい雨の音と <br class="sp">カエルの声</h2>
+<div class="pages-wrapper">
+<div class="text-box">
+<P>睡眠用BGM/雨の音で、田舎の夜の「雨の音」と「カエルの声」が心地よい睡眠を誘います。睡眠・勉強・集中等に最適な自然音です。月夜に降る雨が葉に落ちる優しい音とカエルの合唱が心地よい、ぐっすり眠れる睡眠用BGM「田舎の夜の雨の音」をお楽しみくださいませ。
+</P>
+<h3>この動画の目次</h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+</div><!-- /.text-box -->
+
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jWekW1J6FoM?si=RvWCE83zcJybFgl9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.pages-wrapper -->
+</div><!-- /.pages -->
+</div><!-- /.wrapper -->
+
+<!-- <a href="page-4" id="next">次のページへ</a> -->
+
+
+</div><!-- /#container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+
+<script>
+    <!-- //トップページへのリダイレクト -->
+    setTimeout("redirect()", 0);
+    function redirect(){
+        location.href='../index.html';
+    }
+    $('#container').cleverInfiniteScroll({
+    contentsWrapperSelector: '#container',
+    contentSelector: '.wrapper',
+    nextSelector: '#next',
+    });
+    </script>
+
+</body>
+</html>

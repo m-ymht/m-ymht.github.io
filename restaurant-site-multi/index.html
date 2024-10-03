@@ -37,7 +37,7 @@
         ここは何度でも訪れたくなる場所
       </p>
       <ul class="lang-btn">
-        <li><a href="#" id="btn-ja">日本語</a></li>
+        <li><a href="https://translate.google.com/translate?sl=ja&tl=it&u=" id="btn-ja">日本語</a></li>
         <li><a href="#" id="btn-it">Italiano</a></li>
         <li><a href="#" id="btn-en">English</a></li>
 
@@ -269,5 +269,16 @@
     <script src="js/script.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/jquery.bxslider.js"></script>
+    <script>
+   //多言語用のリダイレクト
+   document.querySelector("#btn-ja").href = '日本語ページのURL';
+
+//イタリア語用のリダイレクト
+document.querySelector("#btn-it").href = 'イタリア語ページのURL';
+
+//英語用のリダイレクト
+document.querySelector("#btn-en").href = '英語ページのURL';
+    </script>
+    
   </body>
 </html>

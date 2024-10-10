@@ -4,11 +4,12 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
 
 body{
 font-family: "Lilita One", sans-serif;
+background-color: #f5f5e1;
 }
 header{
 width: 100%;
-padding: 20px 0;
-background-color: #ffe4c4;    
+padding: 40px 0;
+background-color: #ebdac7;    
 >h1{
 text-align: center;
 font-size: 40px;
@@ -20,7 +21,7 @@ color: #376e4c;
 
 footer{
 width:100%;
-padding: 20px 0;
+padding: 50px 0;
 background-color: #ffe4c4; 
 text-align: center;
 }

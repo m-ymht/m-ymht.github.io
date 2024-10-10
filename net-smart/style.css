@@ -6,6 +6,9 @@
 --sub_color:#d31847;   
 }
 
+
+    
+
 *{
 margin: 0;
 padding: 0;
@@ -22,6 +25,7 @@ img{
 vertical-align: bottom;
 max-width: 100%;    
 }
+
 
 /* PCレイアウト */
 /* header部分 */

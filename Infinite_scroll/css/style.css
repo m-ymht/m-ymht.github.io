@@ -9,20 +9,20 @@ scroll-behavior: smooth;
 /* fv部分 */
 .fv{
 min-height: 130vh;
-padding:0 10px 40px;
 }
 
 header{
-padding: 40px 0;
-text-align: center;
-background-color: rgb(157, 159, 174);
-color: rgb(38, 38, 37);
+padding: 40px 50px;
+background-color: #010528;
+color: #ca7445;
+font-family: "Playwrite AR", cursive;
+
 }
 
 .main-visual{
-max-width: 1200px;
-aspect-ratio: 3/1;
-margin: 40px auto;
+width: 100%;
+aspect-ratio: 3/2;
+margin: 0 auto;
 >img{
 object-fit: cover;
 width: 100%;
@@ -31,8 +31,9 @@ height: 100%;
 }
 .lead{
 max-width: 600px;
-margin: 50px auto;
+margin: -700px auto;
 line-height: 2;
+color: #fff;
 }
 
 .to-top{

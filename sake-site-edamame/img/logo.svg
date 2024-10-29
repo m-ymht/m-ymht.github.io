@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 239 322">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcfcfc;
+        font-family: HGKyokashotai, HGKyokashotai;
+        font-size: 21px;
+        glyph-orientation-vertical: 0deg;
+        text-orientation: upright;
+        writing-mode: tb;
+      }
+
+      .cls-2 {
+        fill: #4d4c89;
+        opacity: .69;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <path class="cls-2" d="M239,187.5c0,69.86-51.49,126.5-115,126.5S9,257.36,9,187.5,60.49,10,124,10s115,107.64,115,177.5Z"/>
+      <text class="cls-1" transform="translate(119 99)"><tspan x="0" y="0">たきのしずく</tspan></text>
+    </g>
+  </g>
+</svg>
